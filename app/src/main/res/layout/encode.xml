@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/encode" >
+    
+
+    <TextView
+        android:id="@+id/tvfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="File"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/etfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvfile"
+            android:layout_below="@+id/tvfile"
+            android:layout_marginTop="15dp"
+            android:ems="10" />
+
+    <Button
+        android:id="@+id/btbrowsefile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etfile"
+        android:layout_toRightOf="@+id/etfile"
+        android:ems="6"
+        android:text="Browse" />
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorLink="#FF0000" />
+    
+    <TextView
+        android:id="@+id/tvcover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etfile"
+        android:layout_below="@+id/etfile"
+        android:layout_marginTop="14dp"
+        android:text="Cover Image"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btbrowseimage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etcover"
+        android:layout_alignLeft="@+id/btbrowsefile1"
+        android:layout_alignParentRight="true"
+        android:ems="6"
+        android:text="Browse" />
+
+    <Button
+        android:id="@+id/btclose1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btencode"
+        android:layout_alignBottom="@+id/btencode"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/btencode"
+        android:ems="6"
+        android:text="Exit" />
+
+    <EditText
+        android:id="@+id/etcover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcover"
+        android:layout_toLeftOf="@+id/btbrowseimage1"
+        android:ems="10" >
+    </EditText>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+    </ListView>
+    
+    <ImageView
+           android:id="@+id/image11"
+           android:layout_width="90dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/btencode"
+           android:layout_margin="10dp"
+           android:layout_toRightOf="@+id/etsaveto">
+       </ImageView>
+
+    <TextView
+        android:id="@+id/saveto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etcover"
+        android:layout_below="@+id/etcover"
+        android:layout_marginTop="14dp"
+        android:text="Save To :"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etsaveto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saveto"
+        android:layout_toLeftOf="@+id/btbrowseimage1"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etcover"
+        android:layout_below="@+id/etsaveto"
+        android:layout_marginTop="14dp"
+        android:text="Password :"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpassword"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btencode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etsaveto"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="18dp"
+        android:ems="6"
+        android:text="Encode" />
+
+</RelativeLayout>

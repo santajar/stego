@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stegano"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+	<uses-sdk 
+	    android:minSdkVersion="7"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.example.stegano.home1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.stegano.splashscreen"
+            android:label="" >
+        </activity>
+        
+        <activity
+            android:name="com.example.stegano.menu"
+            android:label="Menu Utama" >
+        </activity>
+        <activity
+            android:name="com.example.stegano.encode"
+            android:label="Encode" >
+        </activity>
+        <activity
+            android:name="com.example.stegano.login"
+            android:label="Login" >
+        </activity>
+         <activity
+            android:name="com.example.stegano.decode"
+            android:label="Decode" >
+        </activity>
+                <activity
+            android:name="com.example.stegano.about"
+            android:label="About" >
+        </activity>
+         <activity
+            android:name="com.example.stegano.help"
+            android:label="Help" >
+        </activity>
+ <!--         <activity
+            android:name="com.example.stegano.exit"
+            android:label="Exit" >
+        </activity> -->
+	        <activity
+            android:name="com.example.explorer.Filechoice" 
+            android:label="Choice File">
+        </activity>
+        
+	        <activity
+	            android:name="com.example.explorer.Filechoice1"
+	            android:label="Choice File1">
+	            
+	        </activity>
+	        
+        <activity
+            android:name="com.example.explorer.FileExplorer" 
+            android:label="File Explorer">
+        </activity>	
+        
+    </application>
+
+</manifest>

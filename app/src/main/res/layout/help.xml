@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Panduan"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.03"
+        android:text="  1. Encode"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:text="Untuk Encode File kedalam Video. caranya adalah sebagai berikut :
+        "
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+ 	<TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="23dp"
+        android:text="a. Pilih file  yang akan disisipkan kedalam gambar.
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+    
+ 	<TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="23dp"
+        android:text="b. Pilih Video yang akan digunakan sebagai cover file (media penampung pesan).
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+    
+ 	 <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="23dp"
+        android:text="c. Alpabila data yang diisi mudah valid, tekan tombol Encode untuk melakukan proses Encode.
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+       
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="  2. Decode"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:text="Untuk mendapatkan kembali data yang telah disisipkan kedalam Video, caranya adalah sebagai berikut :
+        "
+        android:textColor="#000000"
+        android:textSize="16dp" />
+    
+     <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="23dp"
+        android:text="a. Pilih Video yang telah disisipkan pesan dari hasil encode file aplikasi ini.
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+    
+     <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="23dp"
+        android:text="b. Tekan tombol Decode untuk mengekstraksi pesan yang telah disisipi.
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+         
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="   3. Kelebihan Aplikasi Stegano"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:text="a. Mengamankan data atau file dari orang-orang yang tidak berhak untuk mengetahuinya tanpa seijin dari pemilik file.
+  		"
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:text="b. Tampilan gambar asli dan gambar hasil steganografi susah dibedakan.
+  		"
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="  4. Kekurangan Aplikasi"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:text="a. Video yang mengalami perubahan seperti Cropping, Resize, Rotate dan lain-lain, maka isi pesannya akan hancur.
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+
+   	<TextView
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:text="b. Tidak menyisipkan pasword ketika encode sehingga informasi atau data tidak terlalu terjaga kerahasiannya.
+        "
+        android:textColor="#ff0000"
+        android:textSize="16dp" />
+
+       	
+</LinearLayout>
+
+</ScrollView>
